@@ -1,9 +1,9 @@
 # turn on the rewrite engine
 RewriteEngine on
 
-# if a file exists, use it
-RewriteCond %{REQUEST_FILENAME} -f
-RewriteRule ^(.*)$ $1 [L]
+# if cached file exists, use it
+# RewriteCond %{REQUEST_FILENAME}  -f
+# RewriteRule  ^(.+) $1  [L]
 
-# if request ends in a straight up .js minify & cache it
-RewriteRule ^(.*)$ cargo-mirror.php?f=$1 [QSA,L]
+# else implement cargo-mirror
+RewriteRule ^(.*)$ .mirror/mirror.php?f=$1 [QSA,L]

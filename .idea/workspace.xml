@@ -2,29 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be014e8a-9323-4664-a3f4-8889f2a61b48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php-cargo-mirror.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/models/CargoMirror.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/components/Util.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cargo-mirror.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.mirror/protected/models/Mirror.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.mirror/protected/components/Util.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\cargo-mirror\protected\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\cargo-mirror\protected\components\Util.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\cargo-mirror\protected\config.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\cargo-mirror\protected\models\CargoMirror.php" afterPath="" />
+      <change type="MOVED" beforePath="C:\wamp\www\cargo-mirror\cache\.htaccess" afterPath="$PROJECT_DIR$/.mirror/protected/.htaccess" />
+      <change type="MOVED" beforePath="C:\wamp\www\cargo-mirror\cargo-mirror.php" afterPath="$PROJECT_DIR$/.mirror/mirror.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="php-cargo-mirror.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371824326090" ignored="false" />
-    <file path="/.htaccess" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371823178289" ignored="false" />
-    <file path="/cargo-mirror.php" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371824154741" ignored="false" />
+    <file path="/Dummy.txt" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371829981365" ignored="false" />
+    <file path="/.htaccess" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371837141663" ignored="false" />
+    <file path="/cargo-mirror.php" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371827924792" ignored="false" />
     <file path="/util.php" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371823470701" ignored="false" />
     <file path="/CargoMirror.php" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371824285954" ignored="false" />
     <file path="/Util.php" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371823740361" ignored="false" />
-    <file path="/config.php" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371824180746" ignored="false" />
+    <file path="/config.php" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371829598411" ignored="false" />
+    <file path="/test.php" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371828305112" ignored="false" />
+    <file path="/thing.txt" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371829085415" ignored="false" />
+    <file path="/Mirror.php" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371837524037" ignored="false" />
+    <file path="/mirror.php" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371831646605" ignored="false" />
+    <file path="/a.dummy" changelist="be014e8a-9323-4664-a3f4-8889f2a61b48" time="1371829775377" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,48 +46,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
+      <file leaf-file-name="mirror.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.mirror/mirror.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cargo-mirror.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cargo-mirror.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.24915445">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Util.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/components/Util.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="-1.9615384">
-              <folding>
-                <element signature="e#6#111#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="66" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.230769">
+            <state line="13" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="-8.5">
               <folding>
                 <element signature="e#6#111#0" expanded="true" />
               </folding>
@@ -93,17 +57,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CargoMirror.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/CargoMirror.php">
+      <file leaf-file-name="Util.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.mirror/protected/components/Util.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="177" selection-end="177" vertical-scroll-proportion="-5.230769">
+            <state line="57" column="5" selection-start="1613" selection-end="1613" vertical-scroll-proportion="-29.384615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mirror.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.mirror/protected/models/Mirror.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="0" selection-start="2440" selection-end="2440" vertical-scroll-proportion="-10.653846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="14684" selection-start="16089" selection-end="16089" vertical-scroll-proportion="0.52698046">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/.htaccess">
+        <entry file="file://$PROJECT_DIR$/.mirror/protected/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -112,9 +97,9 @@
         </entry>
       </file>
       <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cache/.htaccess">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+            <state line="5" column="2" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,12 +123,20 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/protected/util.php" />
         <option value="$PROJECT_DIR$/protected/components/Util.php" />
         <option value="$PROJECT_DIR$/protected/config.php" />
         <option value="$PROJECT_DIR$/protected/models/CargoMirror.php" />
         <option value="$PROJECT_DIR$/cargo-mirror.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/cache/thing.txt" />
+        <option value="$PROJECT_DIR$/.mirror/protected/config.php" />
+        <option value="$PROJECT_DIR$/.mirror/protected/components/Util.php" />
+        <option value="$PROJECT_DIR$/.mirror/models/Mirror.php" />
+        <option value="$PROJECT_DIR$/.mirror/mirror.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/.mirror/protected/models/Mirror.php" />
+        <option value="$PROJECT_DIR$/_" />
       </list>
     </option>
   </component>
@@ -152,7 +145,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -180,7 +173,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,7 +187,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="php-cargo-mirror" />
+              <option name="myItemId" value="cargo-mirror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,25 +197,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="php-cargo-mirror" />
+              <option name="myItemId" value="cargo-mirror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
+              <option name="myItemId" value=".mirror" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="fileTemplates" />
-    <property name="last_opened_file_path" value="C:/wamp/www/LeisureWEB" />
-    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeisureWEB" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -231,6 +225,9 @@
       <recent name="C:\development\php-cargo-mirror\protected" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\cargo-mirror\.mirror\protected" />
+      <recent name="C:\wamp\www\cargo-mirror\.mirror\models" />
+      <recent name="C:\wamp\www\cargo-mirror\.mirror" />
       <recent name="C:\development\php-cargo-mirror\protected\components" />
     </key>
   </component>
@@ -254,26 +251,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524013" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -337,33 +334,33 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/.mirror/mirror.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#6#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.mirror/protected/components/Util.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/.htaccess">
+    <entry file="file://$PROJECT_DIR$/.mirror/protected/models/Mirror.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.mirror/protected/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/Util.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="-1.9615384">
-          <folding>
-            <element signature="e#6#111#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -374,25 +371,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config.php">
+    <entry file="file://$PROJECT_DIR$/.mirror/protected/components/Util.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="66" selection-start="215" selection-end="215" vertical-scroll-proportion="-5.230769">
+        <state line="57" column="5" selection-start="1613" selection-end="1613" vertical-scroll-proportion="-29.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.mirror/mirror.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="-8.5">
           <folding>
             <element signature="e#6#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/CargoMirror.php">
+    <entry file="file://$PROJECT_DIR$/.mirror/protected/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="177" selection-end="177" vertical-scroll-proportion="-5.230769">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cargo-mirror.php">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.24915445">
+        <state line="5" column="2" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.mirror/protected/models/Mirror.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="2440" selection-end="2440" vertical-scroll-proportion="-10.653846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14684" selection-start="16089" selection-end="16089" vertical-scroll-proportion="0.52698046">
           <folding />
         </state>
       </provider>
